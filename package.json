@@ -1,0 +1,18 @@
+{
+  "name": "node-lab-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./server/server.js --ignore *.json",
+    "posts": "nodemon ./server/reddit.js --ignore *.json",
+    "images": "nodemon ./server/reddit-media.js --ignore *.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
